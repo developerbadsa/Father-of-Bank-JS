@@ -11,7 +11,7 @@
      <main class=" container mx-auto">
         <h1 class="text-4xl text-center text-white">Father of <span class="font-semibold text-amber-300">Bank</span></h1>
         <!-- Calculation and display section -->
-        <section class="contailer grid grid-cols-3 gap-6 my-24">
+        <section class="grid grid-cols-3 gap-6 my-24">
             <!-- Box 1 -->
             <div class="bg-amber-500 text-white p-6 rounded-xl">
                 <div class="text-2xl">
@@ -40,8 +40,17 @@
             </div>
         </section>
         <!-- Input calculation -->
-        <section>
+        <section class="grid grid-cols-2 gap-8">
+            <div class="bg-green-600  p-6 rounded-xl flex flex-col">
 
+                <input class="input border text-amber-600 border-gray-50 mt-4 rounded" placeholder="Add Money to deposite" type="number">
+                <button class="btn bg-blue-500 text-white text-xl mt-4 hover:bg-amber-400 border border-gray-400">Deposite</button>
+            </div>
+            <div class="bg-green-600 text-white p-6 rounded-xl flex flex-col">
+
+                <input class="input border text-amber-600 border-gray-50 mt-4 rounded" placeholder="Withdraw Amount" type="number">
+                <button class="btn bg-blue-500 text-white text-xl mt-4 hover:bg-amber-400 border border-gray-400">Withdraw</button>
+            </div>
         </section>
     </main>
     <!-- <script src="assets/app.js"></script> -->
